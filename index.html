@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Magic Design</title>
+<link rel="stylesheet" href="./CSS/style.css">
+<link rel="stylesheet" href="./CSS/all.min.css">
+</head>
+<body>
+    <!-- settings-menu -->
+    <div class="toggle-settings">
+        <div class="option-box">
+            <span class="gear-container"><i class="fa fa-gear"></i></span>
+            <div class="box-container">
+                <h4>Color</h4>
+                <ul class="color-list">
+                    <li data-color="#FF5722" class="active"></li>
+                    <li data-color="#FF9800"></li>
+                    <li data-color="#E91E63"></li>
+                    <li data-color="#009688"></li>
+                    <li data-color="#000"></li>
+                    <li data-color="#8BC34A"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="option-box">
+            <div class="box-container">
+                <h4>Random Background</h4>
+                <div class="buttons random-btn">
+                    <span class="yesbtn" data-random=true >Yes</span>
+                    <span class="nobtn" data-random=false >No</span>
+                </div>
+            </div>
+        </div>
+        <div class="option-box">
+            <div class="box-container">
+                <h4>Show Bullets</h4>
+                <div class="buttons clear-bullet">
+                    <span class="yesbtn yesbullet" data-bullet=true >Yes</span>
+                    <span class="nobtn nobullet" data-bullet=false >No</span>
+                </div>
+            </div>
+        </div>
+        <div class="option-box">
+            <div class="box-container">
+                <h4>Reset All Settings</h4>
+                <div class="buttons Reset-btn">
+                    <button type="button">Reset Settings</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- settings-menu -->
+    <!-- start bullets -->
+    <div class="bullets">
+        <div class="bullet">
+            <div class="bullet-title" data-section=".landing-page">Lending Page</div>
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".about">About Us</div>
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".our-skills">Our Skills</div>
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".gallery-section">Gallery</div>
+
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".timeline">TimeLine</div>
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".our-features">Our Feature</div>
+        </div>
+        <div class="bullet">
+            <div class="bullet-title" data-section=".testimonials">Testimonials</div>
+        </div>
+    </div>
+    <!-- end bullets -->
+    <!-- start home button -->
+    <div class="home-btn">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </div>
+    <!-- end home button -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="landing-image"></div>
+        <div class="container">
+        <div class="landing-overlay"></div>
+        <div class="landing-navbar">
+            <strong class="logo-page"><a href="#">Magic Design</a></strong>
+            <ul class="navbar-content">
+                <li><a href="#" data-section=".landing-page">Home</a></li>
+                <li><a href="#" data-section=".about">About Us</a></li>
+                <li><a href="#" data-section=".our-skills">Our Skills</a></li>
+                <li><a href="#" data-section=".gallery-section">Gallery</a></li>
+                <li><a href="#" data-section=".timeline">Timeline</a></li>
+                <li><a href="#" data-section=".our-features">Our Feature</a></li>
+                <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+            <div class="toggle-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        </div>
+        <div class="landing-content">
+            <h1>Welcome To The <span>Magic</span> Web Site</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorum, sint modi quisquam nesciunt voluptas eaque debitis quaerat quos ullam laborum molestias quam facilis qui voluptatem voluptates obcaecati sequi voluptatibus! Dolor?</p>
+        </div>
+    </div>
+    <!-- end lending page -->
+    <!-- start about page -->
+    <div class="container">
+        <div class="about">
+            <div class="box-content">
+                <h1>About Section</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas officiis quae consectetur corrupti obcaecati veniam perspiciatis ea minima voluptates harum ut odit accusamus est, alias accusantium maiores quidem, quasi saepe?</p>
+            </div>
+            <img src="./IMGS/about.jpg" alt="">
+        </div>
+    </div>
+    <!-- end about page -->
+    <!-- start our skills section -->
+    <div class="our-skills">
+        <div class="container">
+            <div class="box-content">
+                <h1>Skill Section</h1>
+            </div>
+            <div class="skill-box">
+                <div class="skill">
+                    HTML
+                </div>
+                <div class="skill-progress">
+                    <span data-progress = "90%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">
+                    CSS
+                </div>
+                <div class="skill-progress">
+                    <span data-progress="80%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">
+                    Python
+                </div>
+                <div class="skill-progress">
+                    <span data-progress="70%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">
+                    JavaScript
+                </div>
+                <div class="skill-progress">
+                    <span data-progress="60%"></span>
+                </div>
+            </div>
+            <div class="skill-box">
+                <div class="skill">
+                    MySql
+                </div>
+                <div class="skill-progress">
+                    <span data-progress="55%"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our skills section -->
+    <!-- start gallery section -->
+    <div class="gallery-section">
+        <div class="container">
+            <div class="box-content">
+                <h2>gallery Section</h2>
+            </div>
+            <div class="gallrey-imgs">
+                <img src="./IMGS/slide1.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide2.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide3.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide4.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide5.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide6.jpg" alt="This Is Img Title">
+                <img src="./IMGS/slide1.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide2.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide3.webp" alt="This Is Img Title">
+                <img src="./IMGS/slide4.webp" alt="This Is Img Title">
+            </div>
+        </div>
+    </div>
+    <!-- end gallery section -->
+    <!-- start timeline -->
+    <div class="timeline">
+        <div class="container">
+            <div class="timeline-box">
+                <div class="box-content">
+                    <h2>TimeLine Section</h2>
+                </div>
+                <div class="year">2023</div>
+                <div class="left">
+                    <div class="timeline-content">
+                        <h4>Testing Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic natus exercitationem ipsum sequi vitae assumenda eum. Iste minima culpa quo sunt eveniet! Facere, cupiditate consequatur! Quaerat laboriosam eligendi nostrum?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="timeline-content">
+                        <h4>Testing Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic natus exercitationem ipsum sequi vitae assumenda eum. Iste minima culpa quo sunt eveniet! Facere, cupiditate consequatur! Quaerat laboriosam eligendi nostrum?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="year">2022</div>
+                <div class="left">
+                    <div class="timeline-content">
+                        <h4>Testing Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic natus exercitationem ipsum sequi vitae assumenda eum. Iste minima culpa quo sunt eveniet! Facere, cupiditate consequatur! Quaerat laboriosam eligendi nostrum?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="right">
+                    <div class="timeline-content">
+                        <h4>Testing Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic natus exercitationem ipsum sequi vitae assumenda eum. Iste minima culpa quo sunt eveniet! Facere, cupiditate consequatur! Quaerat laboriosam eligendi nostrum?</p>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="left">
+                    <div class="timeline-content">
+                        <h4>Testing Heading</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis hic natus exercitationem ipsum sequi vitae assumenda eum. Iste minima culpa quo sunt eveniet! Facere, cupiditate consequatur! Quaerat laboriosam eligendi nostrum?</p>
+                    </div>
+                </div>
+        </div>
+        </div>
+    </div>
+    <!-- end timeline -->
+    <!-- start our features  -->
+    <div class="container">
+        <div class="our-features">
+            <h2>Our Features</h2>
+            <div class="feat-container">
+                <div class="feat-box">
+                    <i class="fa fa-cloud-download fa-3x" aria-hidden="true"></i>
+                    <h4>Cloud Download</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+                <div class="feat-box">
+                    <i class="fa fa-gear fa-3x" aria-hidden="true"></i>
+                    <h4>Flexability</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+                <div class="feat-box">
+                    <i class="fa fa-pen-fancy fa-3x" aria-hidden="true"></i>
+                    <h4>Graphic Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+                <div class="feat-box">
+                    <i class="fa fa-store fa-3x" aria-hidden="true"></i>
+                    <h4>Create Store</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+                <div class="feat-box">
+                    <i class="fa fa-gamepad fa-3x" aria-hidden="true"></i>
+                    <h4>Controling Page</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+                <div class="feat-box">
+                    <i class="fa fa-mobile-android-alt fa-3x" aria-hidden="true"></i>
+                    <h4>Application For Mobile</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, quasi.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end our features  -->
+    <!-- start testmonials -->
+    <div class="testimonials">
+        <div class="container">
+            <h2>Testimonials Of Customers</h2>
+            <div class="testmo-container">
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+                <div class="testmo-box">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus pariatur vero velit excepturi harum tempore sint soluta. Quod, velit impedit?</p>
+                    <div class="person-info">
+                        <i class="fa fa-face-grin-hearts fa-3x" aria-hidden="true"></i>
+                        <div class="person-name">
+                            <h4>Ahmed Abdelaal</h4>
+                            <strong>CEO Of ABE</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end testmonials -->
+    <!-- start contact us -->
+    <div class="contact-us">
+        <div class="container">
+            <h2>Contant Us</h2>
+            <div class="contact-container">
+                <div class="left-form">
+                    <input type="text" name="name" id="name" placeholder="Enter Name"> 
+                    <input type="email" name="email" id="email" placeholder="Enter Email">
+                    <input type="text" name="adderss" id="adderss" placeholder="Enter Address">
+                    <input type="number" name="phone" id="phone" placeholder="Enter Phone">
+                </div>
+                <div class="right-form">
+                    <textarea name="massage" id="massage" placeholder="Enter Your Massage"></textarea>
+                    <input type="button" value="Send">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end contact us -->
+    <!-- start footer -->
+    <div class="footer">
+            <div class="container">
+                <div class="footer-content">
+                    <p>Made With <i class="fa fa-heart"></i> By <span>Ahmed Abdelaal</span></p>
+                </div>
+            </div>
+    </div>
+    <!-- end footer -->
+    <!-- <script src="./JS/all.min.js"></script> -->
+    <script src="./JS/main.js"></script>
+</body>
+</html>

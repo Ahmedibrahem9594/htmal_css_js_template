@@ -1,1 +1,2 @@
-# htmal_css_js_template
+# Slider_Template_JS
+Slider_Template_JS
